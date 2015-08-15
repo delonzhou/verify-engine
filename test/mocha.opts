@@ -1,0 +1,4 @@
+test/js/setup.js
+test/src-tests/**/*.js
+-R dot
+-u bdd

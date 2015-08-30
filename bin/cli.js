@@ -15,5 +15,8 @@ if (packageJsonPath) {
 
   var result = verifyEngine.checkPackageJson(pkgJson);
 
-  reporter.output(result);
+  if (!result.isValid()) {
+    reporter.output(result);
+    process.exit(1);
+  }
 }

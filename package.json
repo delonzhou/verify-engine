@@ -1,6 +1,6 @@
 {
   "name": "verify-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command line tool to verify the engine in the package.json",
   "bin": {
     "verify-engine": "./bin/cli.js"
